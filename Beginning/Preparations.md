@@ -6,7 +6,7 @@
   - Secure Access : Agent gateway..모든 사용자&Agent traffic monitoring을 통한 Discocvery
   - MCP&Tool Governance : User <-> MCP Client <-> Agent <-> Agentic Gateway <-> MCP Server <-> RAG, Web Search, SaaS APIs
   - AI Agent 액션 차단, privacy protection
-2. AI Defense (별도 제품)
+2. AI Defense (Cisco Cloud Control로 management, 별도 제품)
   - AI Red teaming 기능
   - Runtime 보호 : API 방식 / Gateway 방식 모두 지원 (GencoreAI, Lakera는 API 방식), PII/PCI/PHI 지원
 3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
