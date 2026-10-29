@@ -10,6 +10,8 @@
   - AI Red teaming 기능
   - Runtime 보호 : API 방식 / Gateway 방식 모두 지원 (GencoreAI, Lakera는 API 방식), PII/PCI/PHI 지원
   - [중요] Hybrid deployment에서 On-premise에 Detector 배포시 GPU 서버 필요
+  - <img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/9226e779-525f-48b9-be88-fff0e42dcf63" />
+
 ### 3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
 ### 4. Cisco 오픈소스
   - FSS
