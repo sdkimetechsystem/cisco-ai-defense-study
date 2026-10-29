@@ -13,7 +13,9 @@
 
 ## ✈️  Self-hosted requirements
 ■ GPU servers are supported and recommended for certain components of the self-hosted AI Guardrails deployment, but they are not required for all components.
+
 ■ The self-hosted deployment includes GPU-accelerated components 
  - Triton Inference Server – GPU-accelerated inference for text classifiers
-- Triton TensorRT-LLM – GPU-accelerated inference for Audio Defense
+ - Triton TensorRT-LLM – GPU-accelerated inference for Audio Defense
+   
 ■ GPU support was added for self-hosted containers with compatibility for any CUDA 12.x GPU, which accelerates request processing
