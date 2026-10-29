@@ -1,16 +1,17 @@
 # Cisco AI Defense를 준비하기 위해서는 가장 먼저 Cisco Black Belt Academy에서 기본 지식을 학습한다.
 
 ## 간단메모 : [ 2026-10-23 Cisco AI 시대 사이버 보안 워크숖 ]
-1. Discovery of AI Agents  (D-cloud에서 확인 가능)
-  - Cisco Cloud Control > Agentic Security
-  - Secure Access : Agent gateway..모든 사용자&Agent traffic monitoring을 통한 Discocvery
-  - MCP&Tool Governance : User <-> MCP Client <-> Agent <-> Agentic Gateway <-> MCP Server <-> RAG, Web Search, SaaS APIs
-  - AI Agent 액션 차단, privacy protection
-2. AI Defense (Cisco Cloud Control로 management, 별도 제품)
+### 1. Discovery of AI Agents  (D-cloud에서 확인 가능)
+- Cisco Cloud Control > Agentic Security
+- Secure Access : Agent gateway..모든 사용자&Agent traffic monitoring을 통한 Discocvery
+- MCP&Tool Governance : User <-> MCP Client <-> Agent <-> Agentic Gateway <-> MCP Server <-> RAG, Web Search, SaaS APIs
+- AI Agent 액션 차단, privacy protection
+### 2. AI Defense (Cisco Cloud Control로 management, 별도 제품)
   - AI Red teaming 기능
   - Runtime 보호 : API 방식 / Gateway 방식 모두 지원 (GencoreAI, Lakera는 API 방식), PII/PCI/PHI 지원
-3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
-4. Cisco 오픈소스
+  - [중요] Hybrid deployment에서 On-premise에 Detector 배포시 GPU 서버 필요
+### 3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
+### 4. Cisco 오픈소스
   - FSS
   - CodeGuard
   - Isovalent
