@@ -1,5 +1,8 @@
 ### 
 ### 1. Diagram
+#### - AI Gateway Pattern
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/dd430fce-8312-43e3-8b6c-aed572a2c383" />
+
 #### - Chat Application
 <img width="640" height="500" alt="image" src="https://github.com/user-attachments/assets/d063a2cc-c873-401d-9f8b-4cffb456e174" />
 
