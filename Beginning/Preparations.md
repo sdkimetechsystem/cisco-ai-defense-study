@@ -16,9 +16,9 @@
     Other GPU – Select if your node pool uses a GPU not listed above. See the warning below.
   - Configure GPU sharing for single H100 deployments. If you are deploying AI Defense on a single NVIDIA H100 GPU, enable GPU sharing on your OpenShift or Kubernetes cluster before installing the connector. AI Defense supports two GPU sharing modes on H100.
   - Minimum requirements for non-recommended GPUs are as follows: <br>
-    > If a single GPU is used, it must have at least 50 GB of memory. <br>
-    > For smaller GPUs, a minimum of four GPUs is required, each with at least 10 GB of memory. <br>	
-Note! The Other GPU configuration is intended for proof of concept (POC) evaluations only. It is not supported for production use or on non-Cisco hardware.
+    * If a single GPU is used, it must have at least 50 GB of memory. <br>
+    * For smaller GPUs, a minimum of four GPUs is required, each with at least 10 GB of memory. <br>	
+  > Note! The Other GPU configuration is intended for proof of concept (POC) evaluations only. It is not supported for production use or on non-Cisco hardware.
 
 ### 3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
 ### 4. Cisco 오픈소스
