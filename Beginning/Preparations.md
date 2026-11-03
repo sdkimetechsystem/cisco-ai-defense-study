@@ -11,6 +11,11 @@
   - Runtime 보호 : API 방식 / Gateway 방식 모두 지원 (GencoreAI, Lakera는 API 방식), PII/PCI/PHI 지원
   - [중요] Hybrid deployment에서 On-premise에 Detector 배포시 GPU 서버 필요
   - <img width="543" height="200" alt="image" src="https://github.com/user-attachments/assets/038ace17-2dd7-4a45-9ddc-5fbd8a1e68a8" />
+  - NVIDIA H100 – Recommended. Select if your node pool uses NVIDIA H100 GPUs.
+    NVIDIA L40S – Recommended. Select if your node pool uses NVIDIA L40S GPUs.
+    Other GPU – Select if your node pool uses a GPU not listed above. See the warning below.
+  - Configure GPU sharing for single H100 deployments. If you are deploying AI Defense on a single NVIDIA H100 GPU, enable GPU sharing on your OpenShift or Kubernetes cluster before installing the connector. AI Defense supports two GPU sharing modes on H100.
+  - 
 
 
 ### 3. Agentic gateway (Part of Secure Access, 별도 SKU 없음)
