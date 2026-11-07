@@ -45,9 +45,14 @@
     - command 'python' not found 일 경우, 아래 명령 실행
       - source ~/venv/bin/activate
       - python --version
-    - torch error 발생할 경우
+    - ModuleNotFoundError: No module named 'torch' 오류 발생할 경우
       - source ~/venv/bin/activate
       - pip install torch --index-url https://download.pytorch.org/whl/cpu
+    - ModuleNotFoundError: No module named 'numpy' 오류 발생할 경우
+      - pip install numpy
+    - torch, numpy 설치 확인 방법
+      - python -c "import torch, numpy; print('ok')"
+    - 계속 설치 오류발생할 경우 requirements.txt 재설치 
  
 ## (Option) 양자화
 * ./build/bin/llama-quantize ../antares-350m-f16.gguf ../antares-350m-q8_0.gguf Q8_0
