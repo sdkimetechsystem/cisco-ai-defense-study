@@ -42,6 +42,12 @@
   - cd llama.cpp
   - pip install -r requirements.txt
   - python convert_hf_to_gguf.py ../antares-350m --outfile ../antares-350m-f16.gguf --outtype f16
+    - command 'python' not found 일 경우, 아래 명령 실행
+      - source ~/venv/bin/activate
+      - python --version
+    - torch error 발생할 경우
+      - source ~/venv/bin/activate
+      - pip install torch --index-url https://download.pytorch.org/whl/cpu
  
 ## (Option) 양자화
 * ./build/bin/llama-quantize ../antares-350m-f16.gguf ../antares-350m-q8_0.gguf Q8_0
