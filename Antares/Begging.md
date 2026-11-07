@@ -52,7 +52,13 @@
       - pip install numpy
     - torch, numpy 설치 확인 방법
       - python -c "import torch, numpy; print('ok')"
-    - 계속 설치 오류발생할 경우 requirements.txt 재설치 
+    - 계속 설치 오류발생할 경우 하나씩 수동 설치
+      - pip install --no-cache-dir numpy
+      - pip install --no-cache-dir protobuf
+      - pip install --no-cache-dir safetensors
+      - pip install --no-cache-dir sentencepiece
+      - pip install --no-cache-dir gguf
+      - pip install --no-cache-dir transformers
  
 ## (Option) 양자화
 * ./build/bin/llama-quantize ../antares-350m-f16.gguf ../antares-350m-q8_0.gguf Q8_0
