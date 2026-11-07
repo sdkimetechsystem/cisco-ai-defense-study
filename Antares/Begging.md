@@ -13,7 +13,7 @@
 * Access 요청
 * 권한 완료 </br>
   <img width="507" height="40" alt="image" src="https://github.com/user-attachments/assets/6bd4dac3-2fe6-4e14-90fd-ee9c817b7f5a" />
-* 계정 > Access Token > +Create New Token and save token ("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")
+* 계정 > Access Token > +Create New Token and save token ("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")
 
 ## 4. llama.cpp 설치 
 * git clone https://github.com/ggml-org/llama.cpp
@@ -28,6 +28,12 @@
 
 ## 5. HF에서 Model 다운로드
 * HF에 로그인
+#### ** vm 환경에서 설치시 externally관련 오류 발생할 수 있음.. 아래 방법으로 실행
+  - sudo apt install -y python3-venv python3-pip
+  - python3 -m venv ~/venv
+  - source ~/venv/bin/activate
+  - pip install -U "huggingface_hub[cli]"
+* 계속 수행
   - pip install -U "huggingface_hub[cli]"
   - hf auth login        # 구버전은 huggingface-cli login
 * Model 다운로드
