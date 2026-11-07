@@ -35,7 +35,7 @@
   - pip install -U "huggingface_hub[cli]"
 * 계속 수행
   - pip install -U "huggingface_hub[cli]"
-  - hf auth login        # 구버전은 huggingface-cli login
+  - hf auth login        # 화살표 내려서 token으로 로그인 선택해서 토큰 paste
 * Model 다운로드
   - hf download fdtn-ai/antares-350m --local-dir ./antares-350m
 * GGUF로 변환
