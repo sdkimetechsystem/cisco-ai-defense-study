@@ -23,6 +23,8 @@
 * sudo apt install -y build-essential cmake git
 * cmake -B build
 * cmake --build build -j --target llama-cli llama-server llama-quantize
+* 위 명령어의 부하를 줄이려면..양자화는 선택..
+  - cmake --build build -j 1 --target llama-cli llama-server
 
 ## 5. HF에서 Model 다운로드
 * HF에 로그인
