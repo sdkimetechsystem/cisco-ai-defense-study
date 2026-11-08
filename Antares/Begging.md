@@ -23,13 +23,13 @@
 * sudo apt install -y build-essential cmake git
 * cmake -B build
 * cmake --build build -j --target llama-cli llama-server llama-quantize
-* 위 명령어의 부하를 줄이려면..양자화는 선택..
+* 위 명령어의 부하를 줄이려면 1 또는 2 옵션으로..(양자화는 선택)
   - cmake --build build -j 1 --target llama-cli llama-server
 
 ## 5. HF에서 Model 다운로드
 * HF에 로그인
 #### ** vm 환경에서 설치시 externally관련 오류 발생할 수 있음.. 아래 방법으로 실행
-  - sudo apt install -y python3-venv python3-pip
+  - sudo apt install -y python3-pip
   - python3 -m venv ~/venv
   - source ~/venv/bin/activate
   - pip install -U "huggingface_hub[cli]"
