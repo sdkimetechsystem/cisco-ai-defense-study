@@ -31,8 +31,6 @@
 ## 5. HF에서 Model 다운로드
 * HF에 로그인
 #### ** vm 환경에서 설치시 externally관련 오류 발생할 수 있음.. 아래 방법으로 실행
-  - sudo apt install -y python3-pip
-  - python3 -m venv ~/venv
   - source ~/venv/bin/activate
   - pip install -U "huggingface_hub[cli]"
 * 계속 수행
