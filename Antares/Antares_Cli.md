@@ -49,7 +49,14 @@
     return str(cur.fetchall()) </br>
     EOF </br>
  - 테스트 실행
-   - antares plan ~/testrepo --max-cwes 3
-     <img width="718" height="353" alt="image" src="https://github.com/user-attachments/assets/b3954d0a-01e2-4d0d-92cd-b22cab1c90ba" /> 
-   - antares query ~/testrepo --cwe CWE-89 --profile local-llama --tool-budget 5
-   
+   - antares plan은 로컬에서 antares cli 상태 확인하는 방법
+     - antares plan ~/testrepo --max-cwes 3
+     <img width="718" height="353" alt="image" src="https://github.com/user-attachments/assets/b3954d0a-01e2-4d0d-92cd-b22cab1c90ba" /> </br>
+   - antares query는 원격 antares llm에 Query 하는 방법
+     - antares query ~/testrepo --cwe CWE-89 --profile local-llama --tool-budget 5  </br>
+     - antares llm 처리 과정
+       <img width="803" height="350" alt="image" src="https://github.com/user-attachments/assets/b64341d8-9e9e-40a5-ba8d-2ca5cb2366b5" />
+     - antares cli가 antares llm으로 받은 응답
+       
+
+       
