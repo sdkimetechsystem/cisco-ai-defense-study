@@ -25,6 +25,8 @@
 * cmake --build build -j --target llama-cli llama-server llama-quantize
 * 위 명령어의 부하를 줄이려면 1 또는 2 옵션으로..(양자화는 선택)
   - cmake --build build -j 1 --target llama-cli llama-server
+    <img width="583" height="162" alt="image" src="https://github.com/user-attachments/assets/0b37dbde-f4bb-41c0-92ac-7702db5a91e8" />
+
 
 ## 5. HF에서 Model 다운로드
 * HF에 로그인
@@ -42,7 +44,6 @@
   - cd llama.cpp
   - pip install -r requirements.txt
   - python convert_hf_to_gguf.py ../antares-350m --outfile ../antares-350m-f16.gguf --outtype f16
-    <img width="776" height="492" alt="image" src="https://github.com/user-attachments/assets/07ae25bb-2455-4522-a821-ea5101e68457" /> </br>
     - command 'python' not found 일 경우, 아래 명령 실행
       - source ~/venv/bin/activate
       - python --version
