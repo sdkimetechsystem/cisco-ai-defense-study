@@ -55,8 +55,9 @@
    - antares query는 원격 antares llm에 Query 하는 방법
      - antares query ~/testrepo --cwe CWE-89 --profile local-llama --tool-budget 5  </br>
      - antares llm 처리 과정
-       <img width="803" height="350" alt="image" src="https://github.com/user-attachments/assets/b64341d8-9e9e-40a5-ba8d-2ca5cb2366b5" />
+       <img width="900" height="370" alt="image" src="https://github.com/user-attachments/assets/b64341d8-9e9e-40a5-ba8d-2ca5cb2366b5" />
      - antares cli가 antares llm으로 받은 응답
-       
+       <img width="900" height="364" alt="image" src="https://github.com/user-attachments/assets/c9d06836-0c52-479a-a7f8-fa60fddd1b35" />
+
 
        
