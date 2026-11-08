@@ -73,7 +73,7 @@
 * ./build/bin/llama-server -m ../antares-350m-q8_0.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
 * 양자화 하지 않았을 경우.. 
   -  ./build/bin/llama-server -m ../antares-350m-f16.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
-  <img width="360" height="90" alt="image" src="https://github.com/user-attachments/assets/bd27d557-fc59-4dfd-a92b-175e8573fe14" />
+  <img width="720" height="180" alt="image" src="https://github.com/user-attachments/assets/bd27d557-fc59-4dfd-a92b-175e8573fe14" />
 
 
 ## 7. 동작확인
