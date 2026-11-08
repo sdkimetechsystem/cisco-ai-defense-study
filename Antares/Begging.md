@@ -12,12 +12,12 @@
 ### 3. Huggingface에서 Antares 모델 검색 (fdtn-ai/antares-350m)
 * Access 요청
 * 권한 완료 </br>
-  <img width="507" height="40" alt="image" src="https://github.com/user-attachments/assets/6bd4dac3-2fe6-4e14-90fd-ee9c817b7f5a" />
+  <img width="250" height="20" alt="image" src="https://github.com/user-attachments/assets/6bd4dac3-2fe6-4e14-90fd-ee9c817b7f5a" />
 * 계정 > Access Token > +Create New Token and save token ("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")
 
 ## 4. llama.cpp 설치 
 * git clone https://github.com/ggml-org/llama.cpp
-    <img width="778" height="112" alt="image" src="https://github.com/user-attachments/assets/065135ae-b0ad-44bc-9975-ff05f849429e" />
+    <img width="400" height="60" alt="image" src="https://github.com/user-attachments/assets/065135ae-b0ad-44bc-9975-ff05f849429e" />
 * cd llama.cpp
 * sudo apt install cmake
 * sudo apt install -y build-essential cmake git
@@ -71,6 +71,10 @@
 
 ## 6. 실행
 * ./build/bin/llama-server -m ../antares-350m-q8_0.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
+* 양자화 하지 않았을 경우.. 
+  -  ./build/bin/llama-server -m ../antares-350m-f16.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
+  <img width="360" height="90" alt="image" src="https://github.com/user-attachments/assets/bd27d557-fc59-4dfd-a92b-175e8573fe14" />
+
 
 ## 7. 동작확인
 * curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/json" -d '{"messages":[{"role":"user","content":"Hello"}],"temperature":0.2}'
