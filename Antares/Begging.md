@@ -70,7 +70,7 @@
 * ./build/bin/llama-quantize ../antares-350m-f16.gguf ../antares-350m-q8_0.gguf Q8_0
 
 ## 6. 실행
-* ./build/bin/llama-server -m ../antares-350m-q8_0.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
+* ./build/bin/llama-server -m ../antares-350m-q8_0.gguf --alias antares-350m -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
 * 양자화 하지 않았을 경우.. 
   -  ./build/bin/llama-server -m ../antares-350m-f16.gguf -c 8192 -t 4 --host 127.0.0.1 --port 8080 --jinja
   <img width="720" height="180" alt="image" src="https://github.com/user-attachments/assets/bd27d557-fc59-4dfd-a92b-175e8573fe14" />
