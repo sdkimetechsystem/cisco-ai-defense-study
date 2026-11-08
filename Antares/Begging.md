@@ -36,8 +36,12 @@
 * 계속 수행
   - pip install -U "huggingface_hub[cli]"
   - hf auth login        # 화살표 내려서 token으로 로그인 선택해서 토큰 paste
+    <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/4f086ca3-8193-4804-b85b-eadac772801f" />
+
 * Model 다운로드
   - hf download fdtn-ai/antares-350m --local-dir ./antares-350m
+    <img width="500" height="90" alt="image" src="https://github.com/user-attachments/assets/23856ff2-92e8-46f3-a46f-8040f7cc212c" />
+
 * GGUF로 변환
   - cd llama.cpp
   - pip install -r requirements.txt
