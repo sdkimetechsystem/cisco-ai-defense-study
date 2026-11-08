@@ -16,8 +16,8 @@
 * 계정 > Access Token > +Create New Token and save token ("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")
 
 ## 4. llama.cpp 설치 
-* git clone https://github.com/ggml-org/llama.cpp
-    <img width="400" height="60" alt="image" src="https://github.com/user-attachments/assets/065135ae-b0ad-44bc-9975-ff05f849429e" />
+* git clone https://github.com/ggml-org/llama.cpp </br>
+  <img width="600" height="90" alt="image" src="https://github.com/user-attachments/assets/065135ae-b0ad-44bc-9975-ff05f849429e" />
 * cd llama.cpp
 * sudo apt install cmake
 * sudo apt install -y build-essential cmake git
@@ -77,4 +77,7 @@
 
 
 ## 7. 동작확인
-* curl http://localhost:8080/v1/chat/completions -H "Content-Type: application/json" -d '{"messages":[{"role":"user","content":"Hello"}],"temperature":0.2}'
+* curl -s http://localhost:8080/completion   -H "Content-Type: application/json"   -d '{"prompt":"The capital of France is","n_predict":16,"temperature":0}'   | jq -r '.content'
+* [응답]  Paris, a city known for its historical landmarks, fashion, and cuisine.
+  <img width="941" height="90" alt="image" src="https://github.com/user-attachments/assets/8aad6d12-3c05-4208-a8ce-597c76ee2ec9" />
+
