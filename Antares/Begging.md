@@ -79,5 +79,6 @@
 ## 7. 동작확인
 * curl -s http://localhost:8080/completion   -H "Content-Type: application/json"   -d '{"prompt":"The capital of France is","n_predict":16,"temperature":0}'   | jq -r '.content'
 * [응답]  Paris, a city known for its historical landmarks, fashion, and cuisine.
-  <img width="941" height="90" alt="image" src="https://github.com/user-attachments/assets/8aad6d12-3c05-4208-a8ce-597c76ee2ec9" />
+  <img width="700" height="70" alt="image" src="https://github.com/user-attachments/assets/8aad6d12-3c05-4208-a8ce-597c76ee2ec9" />
+* 양자화 하지 않았을 경우, 응답 문자가 깨어지는 경우가 발생함.. 양자화 권고
 
