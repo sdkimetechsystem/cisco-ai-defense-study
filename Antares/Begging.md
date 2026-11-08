@@ -46,6 +46,8 @@
   - cd llama.cpp
   - pip install -r requirements.txt
   - python convert_hf_to_gguf.py ../antares-350m --outfile ../antares-350m-f16.gguf --outtype f16
+    <img width="500" height="140" alt="image" src="https://github.com/user-attachments/assets/ee79bec0-8c5b-474b-80ba-bd4cbf57cffd" />
+
     - command 'python' not found 일 경우, 아래 명령 실행
       - source ~/venv/bin/activate
       - python --version
