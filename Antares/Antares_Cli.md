@@ -37,16 +37,16 @@
 ### 4. 테스트
  - 테스트 파일 만들기
    - mkdir -p ~/testrepo && cd ~/testrepo </br>
-     cat > app.py <<'EOF'v
-     import sqlite3</br>
+     cat > app.py <<'EOF' </br>
+     import sqlite3 </br>
       from flask import Flask, request </br>
      app = Flask(__name__) </br>
      @app.route("/user") </br>
      def user(): </br>
-    name = request.args.get("name") </br>
-    conn = sqlite3.connect("db.sqlite") </br>
-    cur = conn.execute("SELECT * FROM users WHERE name = '" + name + "'") </br>
-    return str(cur.fetchall()) </br>
+   &nbsp;&nbsp; name = request.args.get("name") </br>
+   &nbsp;&nbsp; conn = sqlite3.connect("db.sqlite") </br>
+   &nbsp;&nbsp;  cur = conn.execute("SELECT * FROM users WHERE name = '" + name + "'") </br>
+   &nbsp;&nbsp; return str(cur.fetchall()) </br>
     EOF </br>
  - 테스트 실행
    - antares plan은 로컬에서 antares cli 상태 확인하는 방법
