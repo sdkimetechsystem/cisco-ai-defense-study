@@ -5,3 +5,7 @@
 - sudo apt update
 - sudo apt install nodejs npm
 - nodejs -v, npm -v
+
+### 2. MCP-Server 설치
+- mkdir ~/codeguard-mcp && cd ~/codeguard-mcp
+- npm install @isagasi/codeguard-mcp-server
