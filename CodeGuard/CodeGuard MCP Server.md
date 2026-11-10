@@ -9,3 +9,4 @@
 ### 2. MCP-Server 설치
 - mkdir ~/codeguard-mcp && cd ~/codeguard-mcp
 - npm install @isagasi/codeguard-mcp-server
+- npx @modelcontextprotocol/inspector node ~/codeguard-mcp/node_modules/@isagasi/codeguard-mcp-server/dist/index.js 
