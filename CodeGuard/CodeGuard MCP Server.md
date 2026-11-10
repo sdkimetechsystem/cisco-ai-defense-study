@@ -1,5 +1,6 @@
 ## Cisco CodeGuard MCP Server 설치
 <img width="468" height="101" alt="image" src="https://github.com/user-attachments/assets/44f5456e-a800-4e07-8cbc-a6369672870e" />
+[참고] Virtualbox VM 간 내부 네트워크 연결을 위해서는 "NAT 네트워크" 모드로 설정
 
 ### 1. 필수 패키지 설치
 - sudo apt update
