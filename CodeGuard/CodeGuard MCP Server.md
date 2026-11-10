@@ -12,16 +12,17 @@
 - npx @modelcontextprotocol/inspector node ~/codeguard-mcp/node_modules/@isagasi/codeguard-mcp-server/dist/index.js 
 &nbsp; &nbsp;<img width="786" height="320" alt="image" src="https://github.com/user-attachments/assets/e6cb5e60-ddb5-4427-aa96-8357535cb284" />
 
-- 브라우저가 자동 실행되고, codeguard-server GUI로 자동접속됨
+- 브라우저가 자동 실행되고, codeguard-server GUI로 자동접속됨 (Connected로 토글 이동)
 &nbsp; &nbsp;<img width="1729" height="839" alt="image" src="https://github.com/user-attachments/assets/5114d8f6-ca6c-4883-a8ef-d4c7be936c1d" />
 
+### 3. MCP-Server 동작 확인
 - Tools tab
 &nbsp; &nbsp;<img width="899" height="351" alt="image" src="https://github.com/user-attachments/assets/0a286070-4251-4c73-8d14-e37644e3578e" />
 
 - Tools 동작 검증
-  -    import hashlib
-  -    def save(pw): return hashlib.md5(pw.encode()).hexdigest()
-  -    query = "SELECT * FROM users WHERE id=" + user_id
+  - import hashlib </br>
+    def save(pw): return hashlib.md5(pw.encode()).hexdigest()  </br>
+    query = "SELECT * FROM users WHERE id=" + user_id  </br>
   <img width="540" height="305" alt="image" src="https://github.com/user-attachments/assets/e4e127ac-6940-4950-9f60-2b318fc5776f" />
   <img width="540" height="500" alt="image" src="https://github.com/user-attachments/assets/2d69e882-ce42-420e-9c54-87ca4f07d785" />
 
